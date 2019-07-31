@@ -180,7 +180,7 @@ mxAbstractCanvas2D.prototype.createState = function()
  */
 mxAbstractCanvas2D.prototype.format = function(value)
 {
-	return Math.round(parseFloat(value));
+	return Math.round(value);
 };
 
 /**
